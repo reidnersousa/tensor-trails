@@ -28,7 +28,7 @@ Cada dia da semana é dedicado a um tema específico. Os projetos são armazenad
 - Ferramentas: TensorFlow/Keras ou PyTorch, OpenCV, Matplotlib.
 - Dataset: [Biggest gender/face recognition dataset.](https://www.kaggle.com/datasets/maciejgronczynski/biggest-genderface-recognition-dataset)
 - Entrega: Modelo treinado e um script que recebe uma imagem e retorna a classe prevista.
-- Desafio Extra: Criar um Streamlit para subir imagens e visualizar a previsão.
+
 - 📂[Link do projeto](https://www.kaggle.com/code/reidnersantos/gender-classification-cnn-image-dataset)
 
 ✅ **Nível 2: Detecção de Objetos com YOLO/Faster R-CNN**  
@@ -91,7 +91,7 @@ Cada dia da semana é dedicado a um tema específico. Os projetos são armazenad
 
 ✅ **Nível 1: Deploy Simples de Modelo com FastAPI**
 📌 Tarefa: Criar uma API para servir um modelo de classificação de imagens
-- Objetivo: Treinar um modelo (ex: EfficientNet) e disponibilizar uma API para receber imagens e retornar previsões.
+- Objetivo: Usa a EfficientNet e disponibilizar uma API para receber imagens e retornar previsões.
 - Ferramentas: TensorFlow/PyTorch, FastAPI, Uvicorn, Postman para testes.
 - Entrega: Código que roda localmente e permite enviar imagens via POST request para obter a predição.
 - Desafio Extra: Criar uma interface com Streamlit para facilitar o uso
