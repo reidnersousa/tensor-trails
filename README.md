@@ -66,7 +66,9 @@ Cada dia da semana é dedicado a um tema específico. Os projetos são armazenad
 - Dataset: Sentiment140.
 - Entrega: Criar um script que baixa o dataset, pré-processa os textos, treina o BERT e avalia.
 - Desafio Extra: Criar uma API com FastAPI para enviar textos e receber a predição.
-📂[Link do projeto](https://www.kaggle.com/code/reidnersantos/an-lise-de-sentimentos-pytorch)
+- 📂[Link do projeto](https://www.kaggle.com/code/reidnersantos/an-lise-de-sentimentos-pytorch)
+
+
 ✅ **Nível 2: Embeddings + Busca Semântica**  
 📌 Tarefa: Criação de um sistema de busca semântica com embeddings  
 - Objetivo: Indexar documentos e usar embeddings para encontrar respostas relevantes.
