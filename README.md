@@ -35,13 +35,13 @@ Cada dia da semana é dedicado a um tema específico. Os projetos são armazenad
 📌 Tarefa: Treinar um modelo para detectar objetos em imagens/vídeos 
 - Objetivo: Detectar objetos como carros, pessoas, placas, etc.
 - Ferramentas: YOLOv8, Faster R-CNN, OpenCV, TensorFlow/PyTorch.
-- Dataset: COCO, Pascal VOC, ou dataset customizado.
+- Dataset: [Automatic Number Plate Recognition](https://www.kaggle.com/datasets/aslanahmedov/number-plate-detection)
 - Entrega: Script que recebe uma imagem ou vídeo e retorna bounding boxes com classes.
 - Desafio Extra: Criar um Streamlit ou Gradio para upload de imagens e exibição da detecção.
 
   📂[Link do projeto](https://www.kaggle.com/code/reidnersantos/yolov5-para-detectar-a-placa-do-carro)
 
-✅ **Nível 3: Segmentação de Imagens (UNet / DeepLabV3)**  
+ **Nível 3: Segmentação de Imagens (UNet / DeepLabV3)**  
 📌 Tarefa: Criar um modelo de segmentação para destacar áreas específicas em imagens  
 - Objetivo: Separar objetos do fundo (ex: segmentação de tumores, carros em ruas).
 - Ferramentas: UNet, DeepLabV3, TensorFlow/PyTorch, OpenCV.
@@ -49,7 +49,7 @@ Cada dia da semana é dedicado a um tema específico. Os projetos são armazenad
 - Entrega: Modelo que recebe uma imagem e retorna uma máscara segmentada.
 - Desafio Extra: Fazer Data Augmentation e comparar o impacto na performance
 
-✅ **Nível 4: Visão Computacional para Produção (Edge AI / Deploy)**  
+**Nível 4: Visão Computacional para Produção (Edge AI / Deploy)**  
 📌 Tarefa: Rodar um modelo de visão computacional em um dispositivo embarcado (ex: Raspberry Pi, Jetson Nano)  
  - Objetivo: Criar um sistema de detecção/segmentação otimizado para rodar em hardware de baixa potência.
  - Ferramentas: TensorFlow Lite, OpenVINO, PyTorch Mobile.
@@ -71,7 +71,7 @@ Cada dia da semana é dedicado a um tema específico. Os projetos são armazenad
 - 📂[Link do projeto](https://www.kaggle.com/code/reidnersantos/an-lise-de-sentimentos-pytorch)
 
 
-✅ **Nível 2: Embeddings + Busca Semântica**  
+**Nível 2: Embeddings + Busca Semântica**  
 📌 Tarefa: Criação de um sistema de busca semântica com embeddings  
 - Objetivo: Indexar documentos e usar embeddings para encontrar respostas relevantes.
 - Ferramentas: FAISS, ChromaDB, SentenceTransformers (BERT embeddings).
@@ -79,7 +79,7 @@ Cada dia da semana é dedicado a um tema específico. Os projetos são armazenad
 - Entrega: Criar um buscador que recebe uma pergunta e retorna os documentos mais relevantes.
 - Desafio Extra: Criar um front-end simples (Streamlit ou Gradio) para interação.
 
-✅ **Nível 3: LLMs + RAG (Retrieval-Augmented Generation)**  
+**Nível 3: LLMs + RAG (Retrieval-Augmented Generation)**  
 📌 Tarefa: Construção de um Chatbot Inteligente com LangChain + LLMs  
 - Objetivo: Criar um chatbot que responde perguntas com base em documentos personalizados.
 - Ferramentas: LangChain, OpenAI API / LLaMA / Mistral, ChromaDB (para memória).
@@ -101,7 +101,7 @@ Cada dia da semana é dedicado a um tema específico. Os projetos são armazenad
 - Desafio Extra: Criar uma interface com Streamlit para facilitar o uso
 📂[Link do projeto](https://github.com/reidnersousa/Deploy)
 
-✅ **Nível 2: Dockerização e Deploy na Nuvem**
+**Nível 2: Dockerização e Deploy na Nuvem**
 📌 Tarefa: Empacotar o modelo dentro de um container Docker e hospedar na nuvem
 - Objetivo: Criar um Dockerfile, rodar o modelo dentro de um container e subir para um serviço na nuvem.
 - Ferramentas: Docker, FastAPI, Google Cloud Run / AWS Lambda / Render.
@@ -109,7 +109,7 @@ Cada dia da semana é dedicado a um tema específico. Os projetos são armazenad
 - Desafio Extra: Criar um pipeline CI/CD no GitHub Actions para atualizar o modelo automaticamente.
 
 
-✅ **Nível 3: MLOps Completo com MLflow e Kubernetes**
+**Nível 3: MLOps Completo com MLflow e Kubernetes**
 📌 Tarefa: Criar um pipeline completo de ML, incluindo versionamento e escalabilidade
 - Objetivo: Monitorar experimentos com MLflow, salvar modelos e servir via Kubernetes.
 - Ferramentas: MLflow, Kubernetes, Terraform (infra as code), Prometheus (monitoramento).
@@ -121,7 +121,7 @@ Cada dia da semana é dedicado a um tema específico. Os projetos são armazenad
 ### **📅 Quinta-feira | MLOps & Deploy**  
 📂 [Acesse os projetos](./quinta_mlops_deploy/)  
 
-✅ **Nível 1: Deploy Simples com FastAPI**
+**Nível 1: Deploy Simples com FastAPI**
 📌 Tarefa: Criar uma API para servir um modelo de classificação de imagens
 - Carregar um modelo treinado (.h5 ou .pt)
 - Criar um endpoint /predict para receber uma imagem e retornar a classe prevista
@@ -129,7 +129,7 @@ Cada dia da semana é dedicado a um tema específico. Os projetos são armazenad
 - Sugestão Extra: Adicionar um endpoint /health para verificar se a API está rodando
 - Entrega: Uma API funcional rodando localmente
 
-✅ **Nível 2: Dockerização e Deploy na Nuvem**
+ **Nível 2: Dockerização e Deploy na Nuvem**
 📌 Tarefa: Colocar a API dentro de um container Docker
 - Criar um Dockerfile para empacotar a API
 - Testar o container localmente com docker run
@@ -138,7 +138,7 @@ Cada dia da semana é dedicado a um tema específico. Os projetos são armazenad
 - Entrega: API rodando em um serviço na nuvem
 
 
-✅ **Nível 3: MLOps Completo com MLflow e Kubernetes**
+**Nível 3: MLOps Completo com MLflow e Kubernetes**
 📌 Tarefa: Implementar versionamento de modelos e automação
 
 - Usar MLflow para registrar e versionar os modelos
@@ -148,7 +148,7 @@ Cada dia da semana é dedicado a um tema específico. Os projetos são armazenad
 - Entrega: Modelo versionado e em produção com controle total
 
 
-✅ **Nível 4: Monitoramento e Automação**
+**Nível 4: Monitoramento e Automação**
 📌 Tarefa: Criar um pipeline CI/CD para atualizar o modelo automaticamente
 - Configurar GitHub Actions para treinar e fazer deploy do modelo
 - Adicionar logging e monitoramento (ex: logar previsões em um banco de dados)
@@ -161,14 +161,14 @@ Cada dia da semana é dedicado a um tema específico. Os projetos são armazenad
 
 
 
-✅ **Nível 1: Instalação e Configuração Básica**
+ **Nível 1: Instalação e Configuração Básica**
 📌 Tarefa: Instalar o Docker e rodar o container "hello-world".
 - Objetivo: Familiarizar-se com a instalação do Docker, entender sua arquitetura e executar seu primeiro container para validar a instalação.
 - Ferramentas: Docker (Docker Engine), Docker Hub.
 - Entrega: Um container "hello-world" em execução, demonstrado pela saída do comando.
 - Desafio Extra: Configurar o Docker para iniciar automaticamente com o sistema e explorar comandos básicos (run, ps, stop).
 
-✅ **Nível 2: Containerização de uma Aplicação Simples**
+**Nível 2: Containerização de uma Aplicação Simples**
 📌 Tarefa: Desenvolver uma aplicação web simples (por exemplo, usando Flask ou Node.js) e containerizá-la.
 
 - Objetivo: Criar um Dockerfile que defina o ambiente, copie o código da aplicação e exponha a porta para acesso.
@@ -177,7 +177,7 @@ Cada dia da semana é dedicado a um tema específico. Os projetos são armazenad
 - Desafio Extra: Escrever um arquivo Docker Compose para orquestrar a aplicação e facilitar a execução com um único comando.
 
 
-✅ **Nível 3: Orquestração de Aplicações Multi-Container**
+ **Nível 3: Orquestração de Aplicações Multi-Container**
 📌Tarefa: Desenvolver uma aplicação composta por múltiplos serviços (por exemplo, um backend e um banco de dados) utilizando Docker Compose.
 - Objetivo: Aprender a definir serviços, redes e volumes em um arquivo docker-compose.yml, integrando diferentes containers que se comunicam entre si.
 - Ferramentas: Docker Compose, Docker, uma aplicação simples (ex.: Flask para o backend e PostgreSQL como banco de dados).
@@ -185,7 +185,7 @@ Cada dia da semana é dedicado a um tema específico. Os projetos são armazenad
 - Desafio Extra: Configurar variáveis de ambiente para personalizar as configurações dos serviços e explorar a escalabilidade replicando um dos serviços.
 
 
-✅ **Nível 4: Deploy de Aplicações em Produção com Pipeline CI/CD**
+**Nível 4: Deploy de Aplicações em Produção com Pipeline CI/CD**
 📌Tarefa: Criar uma pipeline de deploy automatizado para uma aplicação containerizada utilizando Docker e uma ferramenta de CI/CD.
 - Objetivo: Implementar um fluxo de integração contínua e entrega contínua (CI/CD) que construa, teste e faça o deploy de uma aplicação em um ambiente de produção.
 - Ferramentas: Docker, Docker Compose (ou orquestração com Docker Swarm/Kubernetes), FastAPI (para criar a API se necessário), e ferramentas de CI/CD (GitHub Actions, GitLab CI ou similares).
@@ -195,7 +195,7 @@ Cada dia da semana é dedicado a um tema específico. Os projetos são armazenad
 --- 
 ### **Sabado | Edge Computing**
 
-✅ **Nível 1: Configuração Básica de Dispositivo Edge**
+**Nível 1: Configuração Básica de Dispositivo Edge**
 📌 Tarefa: Configurar um Raspberry Pi (ou outro dispositivo similar) para coletar e exibir dados de sensores.
 
 - Objetivo: Implantar um script simples que leia informações (por exemplo, temperatura e umidade) de sensores conectados, processando os dados localmente.
@@ -204,7 +204,7 @@ Cada dia da semana é dedicado a um tema específico. Os projetos são armazenad
 - Entrega: Um script funcional rodando no dispositivo que exiba os dados em um dashboard simples ou via terminal.
 - Desafio Extra: Integrar comunicação via MQTT para enviar os dados coletados para um servidor central ou nuvem.
 
-✅ **Nível 2: Implantação de Modelo de Inferência em Edge**
+**Nível 2: Implantação de Modelo de Inferência em Edge**
 📌 Tarefa: Converter um modelo de Machine Learning treinado (por exemplo, para detecção de objetos) para um formato otimizado para dispositivos de borda e implementá-lo.
 
 - Objetivo: Reduzir a latência e o consumo de recursos, tornando a inferência de modelos mais eficiente em um ambiente de Edge Computing.
@@ -213,7 +213,7 @@ Cada dia da semana é dedicado a um tema específico. Os projetos são armazenad
 - Entrega: Um dispositivo edge realizando inferência em tempo real, capaz de processar imagens ou dados de sensores com baixa latência.
 - Desafio Extra: Comparar o desempenho (velocidade e consumo de recursos) entre a inferência local (edge) e uma solução baseada em nuvem.
 
-✅ **Nível 3: Pipeline de Processamento e Inferência com Contêineres**
+ **Nível 3: Pipeline de Processamento e Inferência com Contêineres**
 📌 Tarefa: Containerizar uma aplicação de inferência em Edge e orquestrar o deploy em múltiplos dispositivos.
 
 - Objetivo: Criar um pipeline robusto que integre a coleta de dados, o pré-processamento e a inferência, facilitando atualizações e escalabilidade.
@@ -222,7 +222,8 @@ Cada dia da semana é dedicado a um tema específico. Os projetos são armazenad
 - Entrega: Um pipeline containerizado que pode ser facilmente implantado e atualizado em dispositivos edge, com integração simples via repositório (GitHub, por exemplo).
 - Desafio Extra: Implementar um mecanismo de autoatualização ou monitoramento centralizado (usando ferramentas como Prometheus/Grafana) para gerenciar a performance e a saúde dos dispositivos.
 
-✅ **Nível 4: Aplicação Completa - Edge AI em Produção com Integração CI/CD**
+ 
+ **Nível 4: Aplicação Completa - Edge AI em Produção com Integração CI/CD**
 📌 Tarefa: Desenvolver uma API que sirva inferência de modelos em dispositivos edge e integre um pipeline de CI/CD para atualização contínua.
 
 - Objetivo: Unir a capacidade de processamento local com processos de deploy automatizados e monitoramento híbrido (edge + nuvem), garantindo alta disponibilidade e escalabilidade.
