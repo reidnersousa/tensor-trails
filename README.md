@@ -13,7 +13,7 @@ Cada dia da semana é dedicado a um tema específico. Os projetos são armazenad
 | **Segunda-feira** | 🖼️ [**Visão Computacional**](#segunda-feira--visão-computacional) | Classificação, Detecção e Segmentação de Imagens |
 | **Terça-feira** | 📝 [**Processamento de Linguagem Natural (NLP)**](#terça-feira--processamento-de-linguagem-natural-nlp) | Fine-tuning, embeddings e LLMs |
 | **Quarta-feira** | 🚀 [**MLOps & Deploy**](#quinta-feira--mlops--deploy) | Deploy, Docker, MLflow e Kubernetes |
-| **Quarta-feira** | 🎨 [**IA Generativa**](#quarta-feira--ia-generativa) | Modelos generativos de texto e imagem |
+
 
 ---
 
@@ -155,42 +155,90 @@ Cada dia da semana é dedicado a um tema específico. Os projetos são armazenad
 
 ---
 
-### **Sexta-feira | IA Generativa**
-
-✅ **Nível 1: Geração de Texto com Modelos Autoregressivos**
-📌 Tarefa: Fine-tuning de um modelo GPT-2/GPT-3 para gerar textos específicos
-- Objetivo: Treinar um modelo para escrever em um estilo específico (ex: artigos acadêmicos, diálogos de filmes, etc.).
-- Ferramentas: Hugging Face Transformers, TensorFlow/PyTorch.
-- Dataset: Textos temáticos de um domínio específico (pode usar datasets do Hugging Face ou criar um corpus próprio).
-- Entrega: Um modelo que recebe um prompt e gera um texto coerente.
-- Desafio Extra: Criar um chatbot simples com Streamlit para testar a geração de textos.
-
-✅ **Nível 2: Geração de Imagens com GANs/Diffusion Models**
-📌 Tarefa: Treinar uma GAN (DCGAN, StyleGAN) ou um modelo de difusão (Stable Diffusion)
-
-- Objetivo: Gerar imagens realistas com base em um dataset específico (ex: rostos, paisagens, pinturas).
-- Ferramentas: TensorFlow/PyTorch, Diffusers (para modelos de difusão), Generative Adversarial Networks (GANs).
-- Dataset: CelebA (rostos humanos), LSUN (cenas de interiores), ou qualquer outro de interesse.
-- Entrega: Um modelo capaz de gerar imagens de alta qualidade a partir de ruído.
-- Desafio Extra: Criar um Streamlit para visualizar imagens geradas dinamicamente.
+### **Sexta-feira | Docker**
 
 
-✅ **Nível 3: Text-to-Image com Stable Diffusion**
-📌 Tarefa: Implementar um modelo de geração de imagens a partir de texto
 
-- Objetivo: Criar um pipeline para gerar imagens a partir de descrições textuais.
-- Ferramentas: Stable Diffusion, Diffusers, OpenAI CLIP.
-- Dataset: Prompt-based (não precisa de dataset próprio).
-- Entrega: Um script que recebe um texto e gera uma imagem correspondente.
-- Desafio Extra: Criar um frontend interativo para o modelo (ex: Streamlit ou Gradio).
+✅ **Nível 1: Instalação e Configuração Básica**
+📌 Tarefa: Instalar o Docker e rodar o container "hello-world".
+- Objetivo: Familiarizar-se com a instalação do Docker, entender sua arquitetura e executar seu primeiro container para validar a instalação.
+- Ferramentas: Docker (Docker Engine), Docker Hub.
+- Entrega: Um container "hello-world" em execução, demonstrado pela saída do comando.
+- Desafio Extra: Configurar o Docker para iniciar automaticamente com o sistema e explorar comandos básicos (run, ps, stop).
 
-📌 **Nível 4: Aplicação Completa - IA Generativa em Produção**
-📌 Tarefa: Criar uma API para servir um modelo generativo
+✅ **Nível 2: Containerização de uma Aplicação Simples**
+📌 Tarefa: Desenvolver uma aplicação web simples (por exemplo, usando Flask ou Node.js) e containerizá-la.
 
-- Objetivo: Servir um modelo de geração de texto ou imagens como uma API acessível via FastAPI.-
-- Ferramentas: FastAPI, Hugging Face Transformers, Docker, Render/AWS/GCP.
-- Entrega: Uma API que recebe um input (texto ou ruído) e retorna uma geração (texto ou imagem).
-- Desafio Extra: Criar um pipeline CI/CD para treinar e atualizar o modelo automaticamente.
+- Objetivo: Criar um Dockerfile que defina o ambiente, copie o código da aplicação e exponha a porta para acesso.
+
+- Ferramentas: Docker, linguagem de programação escolhida (Python/Flask ou Node.js/Express), Dockerfile.
+
+- Entrega: Uma imagem Docker construída a partir do Dockerfile e um container rodando a aplicação.
+
+- Desafio Extra: Escrever um arquivo Docker Compose para orquestrar a aplicação e facilitar a execução com um único comando.
+
+
+✅ **Nível 3: Orquestração de Aplicações Multi-Container**
+📌 Tarefa: Desenvolver uma aplicação composta por múltiplos serviços (por exemplo, um backend e um banco de dados) utilizando Docker Compose.
+
+- Objetivo: Aprender a definir serviços, redes e volumes em um arquivo docker-compose.yml, integrando diferentes containers que se comunicam entre si.
+
+- Ferramentas: Docker Compose, Docker, uma aplicação simples (ex.: Flask para o backend e PostgreSQL como banco de dados).
+
+- Entrega: Um projeto funcional onde o comando docker-compose up levanta todos os containers e a aplicação pode ser acessada normalmente.
+
+- Desafio Extra: Configurar variáveis de ambiente para personalizar as configurações dos serviços e explorar a escalabilidade replicando um dos serviços.
+
+
+✅ **Nível 4: Deploy de Aplicações em Produção com Pipeline CI/CD**
+📌 Tarefa: Criar uma pipeline de deploy automatizado para uma aplicação containerizada utilizando Docker e uma ferramenta de CI/CD.
+
+- Objetivo: Implementar um fluxo de integração contínua e entrega contínua (CI/CD) que construa, teste e faça o deploy de uma aplicação em um ambiente de produção.
+
+- Ferramentas: Docker, Docker Compose (ou orquestração com Docker Swarm/Kubernetes), FastAPI (para criar a API se necessário), e ferramentas de CI/CD (GitHub Actions, GitLab CI ou similares).
+
+- Entrega: Uma API ou aplicação containerizada que é atualizada automaticamente por meio do pipeline de CI/CD, com documentação do processo.
+
+- Desafio Extra: Implementar monitoramento e logs centralizados (por exemplo, usando Prometheus/Grafana) e configurar um pipeline que também atualize a aplicação automaticamente em caso de novas alterações no repositório.
+
+
+### **Sabado | Edge Computing**
+
+✅ **Nível 1: Configuração Básica de Dispositivo Edge**
+📌 Tarefa: Configurar um Raspberry Pi (ou outro dispositivo similar) para coletar e exibir dados de sensores.
+
+- Objetivo: Implantar um script simples que leia informações (por exemplo, temperatura e umidade) de sensores conectados, processando os dados localmente.
+- Ferramentas: Raspberry Pi, Python, bibliotecas de sensores (como Adafruit_GPIO ou RPi.GPIO).
+- Dataset: Dados em tempo real coletados pelo sensor durante a operação.
+- Entrega: Um script funcional rodando no dispositivo que exiba os dados em um dashboard simples ou via terminal.
+- Desafio Extra: Integrar comunicação via MQTT para enviar os dados coletados para um servidor central ou nuvem.
+
+✅ **Nível 2: Implantação de Modelo de Inferência em Edge**
+📌 Tarefa: Converter um modelo de Machine Learning treinado (por exemplo, para detecção de objetos) para um formato otimizado para dispositivos de borda e implementá-lo.
+
+- Objetivo: Reduzir a latência e o consumo de recursos, tornando a inferência de modelos mais eficiente em um ambiente de Edge Computing.
+- Ferramentas: TensorFlow Lite, PyTorch Mobile ou ONNX Runtime; Raspberry Pi ou dispositivo similar.
+- Dataset: Utilizar um modelo pré-treinado e, se necessário, ajustar com um conjunto de dados reduzido para testes.
+- Entrega: Um dispositivo edge realizando inferência em tempo real, capaz de processar imagens ou dados de sensores com baixa latência.
+- Desafio Extra: Comparar o desempenho (velocidade e consumo de recursos) entre a inferência local (edge) e uma solução baseada em nuvem.
+
+✅ **Nível 3: Pipeline de Processamento e Inferência com Contêineres**
+📌 Tarefa: Containerizar uma aplicação de inferência em Edge e orquestrar o deploy em múltiplos dispositivos.
+
+- Objetivo: Criar um pipeline robusto que integre a coleta de dados, o pré-processamento e a inferência, facilitando atualizações e escalabilidade.
+- Ferramentas: Docker para containerização, Kubernetes (ou uma versão leve como K3s) para orquestração, Python.
+- Dataset: Dados simulados ou reais coletados de sensores ou câmeras, conforme o cenário escolhido.
+- Entrega: Um pipeline containerizado que pode ser facilmente implantado e atualizado em dispositivos edge, com integração simples via repositório (GitHub, por exemplo).
+- Desafio Extra: Implementar um mecanismo de autoatualização ou monitoramento centralizado (usando ferramentas como Prometheus/Grafana) para gerenciar a performance e a saúde dos dispositivos.
+
+✅ **Nível 4: Aplicação Completa - Edge AI em Produção com Integração CI/CD**
+📌 Tarefa: Desenvolver uma API que sirva inferência de modelos em dispositivos edge e integre um pipeline de CI/CD para atualização contínua.
+
+- Objetivo: Unir a capacidade de processamento local com processos de deploy automatizados e monitoramento híbrido (edge + nuvem), garantindo alta disponibilidade e escalabilidade.
+- Ferramentas: FastAPI para criar a API, Docker para containerização, GitHub Actions ou outra ferramenta de CI/CD, e ferramentas de monitoramento (como Prometheus e Grafana).
+- Dataset: Utilizar dados reais oriundos de sensores ou de uma aplicação específica (ex.: monitoramento de segurança ou qualidade de produção).
+- Entrega: Uma API robusta que receba dados via endpoints, retorne inferência realizada localmente e registre métricas e logs para monitoramento.
+- Desafio Extra: Implementar estratégias de failover e integração com soluções na nuvem, permitindo uma abordagem híbrida que garanta redundância e escalabilidade.
 
 
 ## 📂 Estrutura do Repositório  
