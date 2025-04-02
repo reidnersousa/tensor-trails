@@ -201,7 +201,7 @@ Cada dia da semana é dedicado a um tema específico. Os projetos são armazenad
 
 - Desafio Extra: Implementar monitoramento e logs centralizados (por exemplo, usando Prometheus/Grafana) e configurar um pipeline que também atualize a aplicação automaticamente em caso de novas alterações no repositório.
 
-
+--- 
 ### **Sabado | Edge Computing**
 
 ✅ **Nível 1: Configuração Básica de Dispositivo Edge**
