@@ -39,6 +39,8 @@ Cada dia da semana é dedicado a um tema específico. Os projetos são armazenad
 - Entrega: Script que recebe uma imagem ou vídeo e retorna bounding boxes com classes.
 - Desafio Extra: Criar um Streamlit ou Gradio para upload de imagens e exibição da detecção.
 
+  📂[Link do projeto](https://www.kaggle.com/code/reidnersantos/yolov5-para-detectar-a-placa-do-carro)
+
 ✅ **Nível 3: Segmentação de Imagens (UNet / DeepLabV3)**  
 📌 Tarefa: Criar um modelo de segmentação para destacar áreas específicas em imagens  
 - Objetivo: Separar objetos do fundo (ex: segmentação de tumores, carros em ruas).
