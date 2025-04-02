@@ -170,35 +170,24 @@ Cada dia da semana é dedicado a um tema específico. Os projetos são armazenad
 📌 Tarefa: Desenvolver uma aplicação web simples (por exemplo, usando Flask ou Node.js) e containerizá-la.
 
 - Objetivo: Criar um Dockerfile que defina o ambiente, copie o código da aplicação e exponha a porta para acesso.
-
 - Ferramentas: Docker, linguagem de programação escolhida (Python/Flask ou Node.js/Express), Dockerfile.
-
 - Entrega: Uma imagem Docker construída a partir do Dockerfile e um container rodando a aplicação.
-
 - Desafio Extra: Escrever um arquivo Docker Compose para orquestrar a aplicação e facilitar a execução com um único comando.
 
 
 ✅ **Nível 3: Orquestração de Aplicações Multi-Container**
-📌 Tarefa: Desenvolver uma aplicação composta por múltiplos serviços (por exemplo, um backend e um banco de dados) utilizando Docker Compose.
-
+📌Tarefa: Desenvolver uma aplicação composta por múltiplos serviços (por exemplo, um backend e um banco de dados) utilizando Docker Compose.
 - Objetivo: Aprender a definir serviços, redes e volumes em um arquivo docker-compose.yml, integrando diferentes containers que se comunicam entre si.
-
 - Ferramentas: Docker Compose, Docker, uma aplicação simples (ex.: Flask para o backend e PostgreSQL como banco de dados).
-
 - Entrega: Um projeto funcional onde o comando docker-compose up levanta todos os containers e a aplicação pode ser acessada normalmente.
-
 - Desafio Extra: Configurar variáveis de ambiente para personalizar as configurações dos serviços e explorar a escalabilidade replicando um dos serviços.
 
 
 ✅ **Nível 4: Deploy de Aplicações em Produção com Pipeline CI/CD**
-📌 Tarefa: Criar uma pipeline de deploy automatizado para uma aplicação containerizada utilizando Docker e uma ferramenta de CI/CD.
-
+📌Tarefa: Criar uma pipeline de deploy automatizado para uma aplicação containerizada utilizando Docker e uma ferramenta de CI/CD.
 - Objetivo: Implementar um fluxo de integração contínua e entrega contínua (CI/CD) que construa, teste e faça o deploy de uma aplicação em um ambiente de produção.
-
 - Ferramentas: Docker, Docker Compose (ou orquestração com Docker Swarm/Kubernetes), FastAPI (para criar a API se necessário), e ferramentas de CI/CD (GitHub Actions, GitLab CI ou similares).
-
 - Entrega: Uma API ou aplicação containerizada que é atualizada automaticamente por meio do pipeline de CI/CD, com documentação do processo.
-
 - Desafio Extra: Implementar monitoramento e logs centralizados (por exemplo, usando Prometheus/Grafana) e configurar um pipeline que também atualize a aplicação automaticamente em caso de novas alterações no repositório.
 
 --- 
