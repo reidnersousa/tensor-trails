@@ -97,7 +97,7 @@ Cada dia da semana é dedicado a um tema específico. Os projetos são armazenad
 - Ferramentas: TensorFlow/PyTorch, FastAPI, Uvicorn, Postman para testes.
 - Entrega: Código que roda localmente e permite enviar imagens via POST request para obter a predição.
 - Desafio Extra: Criar uma interface com Streamlit para facilitar o uso
-
+📂[Link do projeto](https://github.com/reidnersousa/Deploy)
 
 ✅ **Nível 2: Dockerização e Deploy na Nuvem**
 📌 Tarefa: Empacotar o modelo dentro de um container Docker e hospedar na nuvem
