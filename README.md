@@ -27,4 +27,4 @@ Cada pasta contém um projeto completo com código, dados, modelo treinado e ins
 
 ### IA para Finanças
 - [previsão de ações com Deep Learning](https://www.kaggle.com/code/reidnersantos/previs-o-de-a-es-com-deep-learning)
-> ⚡ Para detalhes técnicos, ideias de projetos e roadmap completo, acesse meu Notion.
+
