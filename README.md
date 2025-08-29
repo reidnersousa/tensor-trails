@@ -23,6 +23,7 @@ Cada pasta contém um projeto completo com código, dados, modelo treinado e ins
 
 - [Análise de sentimentos Pytorch](https://www.kaggle.com/code/reidnersantos/an-lise-de-sentimentos-pytorch)
 - [Chatbot](https://www.kaggle.com/code/reidnersantos/chatbot-simples)
+- [Financial Assistant com Qwen LLM](https://www.kaggle.com/code/reidnersantos/financial-assistant-com-qwen-llm)
 
 ### IA para Finanças
 - [previsão de ações com Deep Learning](https://www.kaggle.com/code/reidnersantos/previs-o-de-a-es-com-deep-learning)
