@@ -14,7 +14,7 @@ Cada pasta contém um projeto completo com código, dados, modelo treinado e ins
 - [Digito re](https://www.kaggle.com/code/reidnersantos/digito-re)
 - [**Transfer Learning Pytorch**](https://www.kaggle.com/code/reidnersantos/transfer-learning-pytorch)
 - [ColorTrack](https://github.com/reidnersousa/ColorTrack)
-- [FaceNet](https://www.kaggle.com/code/reidnersantos/facenet)
+- [FaceNet FaceBank Recognition](https://www.kaggle.com/code/reidnersantos/facenet-facebank-recognition)
 
 ### NLP – Natural Language Processing)
 
